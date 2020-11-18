@@ -23,7 +23,7 @@ function Hero() {
       <HeroContent>
         <HeroItems>
           <HeroH1>Worlds Most Delectable Popcorn</HeroH1>
-          <HeroP>Delivery So Fast The Popcorn Stays Hot</HeroP>
+          <HeroP>Delivery So Fast The Popcorns Still Hot</HeroP>
           <HeroBtn>Place Order</HeroBtn>
         </HeroItems>
       </HeroContent>
