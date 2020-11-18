@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { GiPopcorn } from "react-icons/gi";
 import { NavLink as Link } from "react-router-dom";
 
 export const Nav = styled.nav`
@@ -27,17 +28,18 @@ export const NavLink = styled(Link)`
 export const NavIcon = styled.div`
   display: block;
   position: absolute;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   cursor: pointer;
-  color:#fff;
+  color: #fff;
 
-  p{
-      transform: translate(-175%, 100%);
-      font-weight:bold:
+  p {
+    transform: translate(-175%, 100%);
+    font-weight: bold;
   }
 `;
 
 export const Bars = styled(GiPopcorn)`
   font-size: 2rem;
+  transform: translate(-50%, -15%);
 `;

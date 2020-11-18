@@ -1,14 +1,15 @@
 import React from "react";
-import { Nav, NavLink } from "./NavbarElements";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Nav, NavLink, Bars, NavIcon } from "./NavbarElements";
 
 function Navbar() {
   return (
-    <Router>
-      <Nav>
-        <NavLink to="/">Popcorn</NavLink>
-      </Nav>{" "}
-    </Router>
+    <Nav>
+      <NavLink to="/">Popcorn</NavLink>
+      <NavIcon>
+        <p>Menu</p>
+        <Bars />
+      </NavIcon>
+    </Nav>
   );
 }
 
